@@ -16,10 +16,10 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 # Resolve BOT API KEY from environment variable
-updater = Updater(os.environ.get("BOT_API_KEY"), use_context=True)
+updater = Updater(os.environ.get("1555740811:AAHbe-szPErML-Q-UOvPfija5tW9C4owkp8"), use_context=True)
 
 # Resolve BOT LOG CHAT from environment variable
-BOT_LOG_CHAT = os.environ.get("BOT_LOG_CHAT")
+BOT_LOG_CHAT = os.environ.get("-1001187869774")
 
 
 def id(update: telegram.Update, context):
